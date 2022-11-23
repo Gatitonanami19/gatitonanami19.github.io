@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <link rel ="stylesheet" href="css/estilos.css" type="text/css">
+ 
+</head>
+<body>
+    <div id="franja"></div>
+    <header>
+        <!--LOGO Y ENCABEZADO-->
+        <img src="IMAGENES/logo.png" align="center">
+         ISTP Abaco - Piura
+    </header>
+   <nav>
+    <!--
+        Enlace 1: Quienes somos?
+        Enlace 2: Servicios
+        Enlace 3: Contactos
+    -->
+    <ul>
+    <li><img src="IMAGENES/iconol1.png" align="top">
+    <p>
+        <a href="index.html"> Quienes somos?</a></li>
+
+
+    <li><img src="IMAGENES/iconol4.png" align="top">
+    <p>
+        <a href ="Servicios.html">Servicios</a></li>
+    <li><img src="IMAGENES/iconol3.png" align="top">
+    <p>contactos</li>
+    </ul>
+   </nav>
+   <div id ="contenido">
+    <div id="titulo">
+    
+        <h2>Contacto</h2>
+    </div>
+
+    <section>
+        <div id="formulario">
+    <form method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre:<input type="text" name="nombre" size="38"
+            placeholder="Su nombre" title="Escriba su nombre" autofocus aria-autocomplete><Br>
+            Correo Electronico:<input type="email" name="email"
+            size="28" placeholder="Su correo electronico"
+            title="Escribe su correo electronico" required autocomplete>
+        </fieldset>
+        <fieldset>
+        <legend>Datos de la Propuesta</legend>
+        Breve descripcion de la propuesta:<br>
+        <textarea ></textarea><p>
+            Estado actual de la propuesta:<br>
+            <input type="radio" name="propuesta" value="sin plantear" checked/> En planteamiento
+            <input type="radio" name="propuesta" value="en planificacion"/> En planificacion
+            <input type="radio" name="propuesta" value="en ejecucion"/>En ejecucion
+            <input type="radio" name="propuesta" value="finalizado"/> Ya finalizado<p>
+                Presupuesto Aproximado (en soles)
+                <input type="number" value="1000" min="150" max="3000" step="50">
+        </fieldset>
+        <input id="boton_enviar" type="Submit" value="Enviar">
+    </form> 
+</div>
+    <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.4279790476994!2d-80.62776815014043!3d-5.1952189538232405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904a107c37fdbdd5%3A0xe09604c2a6a8be94!2sAbaco!5e0!3m2!1ses-419!2spe!4v1667395737020!5m2!1ses-419!2spe" width="415" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>   
+    <div id="transicion">
+        <b>ISTP ABACO -  PIURA</b> Calle Libertad 567, Centro de Piura<P>
+            Telefono:94927075<br>
+            Email:abacopiura@abaco.com.pe<br>
+            Pagina Web:www.abacopiura.edu.pe<br>
+            <div id="transicion2">
+                Ver Mapa
+            </div>
+        </div>
+    </section>
+    </div>
+      <div id="franja_final"></div>
+   <footer>
+    <!--Pie de Pagina-->
+ 
+    &copy; 2022. Abaco Piura<br>
+    Calle Libertad 657, Centro de Piura.
+   </footer>
+</body>
+</html>
